@@ -1,50 +1,187 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin,cyrillic);
+* {
+	margin: 0 auto;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
+html,
 body {
-	line-height: 1;
+    height:100%;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+body {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
 }
 
 .page {
 	margin: 0 auto;
 	width: 900px;
-	background-color: #666;
+	min-height: 100%;
+}
+
+.header {
+	background-image: url(img/banners.png);
+	height: 100px;
+}
+.title {
+	height: 100px;
+	padding-top: 5px;
+	width: 500px;
+	margin-left: 50px;
+
+}
+
+.title p {
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+.title a{
+	font-family: a_CityNova,"Open Sans Condensed", sans-serif;
+	font-size: 50px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 55px;
+	text-decoration: none;
 	
+}
+
+.title a:active{
+	color: #ff8e4b;
+}
+
+.title_line {
+	background-color: #fff;
+	height: 1px;
+	width: 450px;
+	margin-left: 0;
+}
+.navigation {
+	height: 60px;
+	margin: 5px 0 5px;
+}
+
+.navigation_bar {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation_item {
+	float: left;
+	list-style-type: none;
+	height: 100%;
+	width: 120px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.navigation_item a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Ubuntu, sans-serif;
+	display: block;
+	height: 100%;
+	line-height: 55px;
+	font-family: Ubuntu;
+	color: #A6CA9C;
+	font-weight: 600;
+	text-align: center;
+}
+
+.navigation_item:hover {
+	background-color: #A6CA9C;
+}
+
+.navigation_item:hover a{
+	color: #ff8e4b;
+	font-weight: 600;
+}
+
+.logo {
+	background-image: url(img/logo_mainbutton.png);
+	height: 35px;
+	width: 32px;
+	margin: 12px 5px 13px 8px;
+	display: inline-block;
+	float: left;
+}
+
+.main_button a{
+	width: 70px;
+	margin: 0;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Ubuntu, sans-serif;
+	line-height: 55px;
+}
+.main_button {
+	height: 100%;
+	width: 120px;
+}
+
+.sidebar {
+	height: 600px;
+	width: 200px;
+	float: left;
+	background-color: rgba(255,142,75,0.8);
+	border-radius: 5px;
+}
+
+.content {
+	background-color: #fff;
+	margin: 0 0 10px 225px;
+	border: solid 2px #A6CA9C;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.content p{
+
+	color: #515862;
+	font-size: 14px; 
+	font-weight: 400;
+	text-align: center;
+	text-align: justify;
+}
+
+.clr {
+	height: 100px;
+}
+
+.footer {
+	background-color: #37716d;
+	clear: both;
+	height: 90px;
+	width: 900px;
+	margin: -100px auto 0;
+	border-radius: 5px 5px 0 0;
+	padding-top: 10px;
+}
+
+.footer p{
+	line-height: 22px;
+	color: #fff;
+}
+
+.footer_text {
+	margin: 0px 0 0 70px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.footer_text a {
+	color: #ff8e4b;
+}
+
+#current_page {
+	/*background-color: #A6CA9C;*/
+}
+
+#current_page a{
+	/*color: #ff8e4b;*/
+	font-weight: 600;
 }
