@@ -1,0 +1,12 @@
+.navigation_item a{
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Arial", sans-serif;
+	display: block;
+	height: 100%;
+	line-height: 20px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	text-transform: lowercase; 
+}

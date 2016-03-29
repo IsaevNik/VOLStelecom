@@ -93,6 +93,7 @@ body {
 	padding: 0;
     display:inline-block;
     padding: 20px 0 0 5px;
+	margin-bottom: 6px;
 
 }
 
@@ -414,13 +415,24 @@ body {
 	
 }
 .history_short>span, .history_long>span, .staff_short>span, .staff_long>span, .activity_short>span, .activity_long>span  {
-	color: #42D4B2;
+	color: #41C695;
 	font-size: 14px; 
 	font-weight: 600;
 	line-height: 15px; 
 	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+.shop {
+	margin: 0 20px 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.shop a {
+	color: #41C695;
+	font-weight: 600;
 }
 
 .center_clr, .left_clr, .right_clr {
