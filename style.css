@@ -157,7 +157,7 @@ body {
 	float: left;
 	display: inline-block;
 }
-/*41dcf3*/
+
 .footer_text1 a {
 	color: #78F6D9;
 	font-size: 15px;
@@ -208,7 +208,7 @@ body {
 	box-shadow: 0 0 10px #777;
 }
 
-.content h2, .content p {
+.content h2, .content p, .content h4{
     font-family: Tahoma, Arial, Helvetica, sans-serif;
     color: #525252;
 }
@@ -348,7 +348,7 @@ body {
 	font-size: 17px;
 }
 
-#about_us p {
+#about_us p, #services p {
 	margin: 20px 30px 20px 30px;
 	text-align: justify;
 	text-indent: 40px;
@@ -430,11 +430,57 @@ body {
 	text-align: center;
 }
 
-.shop a {
+.content a {
 	color: #41C695;
 	font-weight: 600;
 }
 
+.content h4 {
+	text-align: center;
+}
+
+#services table {
+	border-collapse: collapse;
+	width: 840px;
+}
+caption {
+	margin-bottom: 10px;
+}
+#services th {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #525252;
+	font-weight: 400;
+	border: solid 2px #515862;
+	font-size: 16px;
+}
+
+#services td{
+	border: solid 2px #515862;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #525252;
+	text-align: center;
+}
+#services .section {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #525252;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+}
+#number {
+	width: 45px;
+}
+#work {
+	width: 635px;
+}
+#coast {
+	width: 70px;
+}
+
+#services .name {
+	text-align: left;
+	padding-left: 7px;
+}
 .center_clr, .left_clr, .right_clr {
 	display: inline-block;
 }
